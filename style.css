@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  text-align: center;
+  color: aliceblue;
+  width: 1339px;
+}
+
+.container .box1 {
+  background-color: rgb(138, 200, 219);
+
+  order: -6;
+}
+.container .box2 {
+  background-color: rgb(87, 194, 87);
+
+  order: -4;
+}
+.container .box3 {
+  background-color: rgb(6, 170, 199);
+
+  order: -3;
+}
+.container .box4 {
+  background-color: rgb(136, 28, 118);
+
+  order: -2;
+}
+.container .box5 {
+  background-color: black;
+}
+.container .box6 {
+  background-color: rgb(193, 224, 16);
+
+  order: -10;
+}
+.container .box7 {
+  background-color: rgb(221, 139, 15);
+
+  order: -5;
+}
+.container .box8 {
+  background-color: rgb(199, 16, 16);
+
+  order: -9;
+}
+.container .box9 {
+  background-color: rgb(153, 154, 155);
+
+  order: -8;
+}
+.container .box10 {
+  background-color: rgb(77, 85, 77);
+
+  order: -7;
+}
+.box {
+  padding: 40px;
+  width: 150px;
+}
